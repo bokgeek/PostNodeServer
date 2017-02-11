@@ -1,0 +1,30 @@
+{
+  "name": "infosnodeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bokgeek/MyButtonsNodeServer.git"
+  },
+  "author": "BoK Geek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bokgeek/MyButtonsNodeServer/issues"
+  },
+  "homepage": "https://github.com/bokgeek/MyButtonsNodeServer#readme",
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cool-ascii-faces": "1.3.4",
+    "express": "~4.13.1",
+    "method-override": "^2.1.2",
+    "mongoose": "~4.1.11"
+  },
+  "engines": {
+    "node": "5.9.1"
+  },
+  "devDependencies": {}
+}
