@@ -18,7 +18,7 @@ var options = {
     replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } }
 };
 
-var mongodbUri = 'mongodb://tester:tester@ds147799.mlab.com:47799/infos';
+var mongodbUri = process.env.mongodbUri;
 //var mongodbUri = 'mongodb://localhost/infos';
 
 mongoose.connect(mongodbUri, options);
